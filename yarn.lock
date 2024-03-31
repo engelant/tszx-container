@@ -151,6 +151,13 @@
     "@types/jsonfile" "*"
     "@types/node" "*"
 
+"@types/ipp@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@types/ipp/-/ipp-2.0.5.tgz#8c58a34cea5f42bfd4c375d2812d324f473984c2"
+  integrity sha512-urVWEq8xGZyj9ddEXWaGotJ6uu2Jnn8qvUmsf2nWvQmOO5fw0ErUJGQE8nVHaIpe1fRsZ3ylSigySKT4xXvuwg==
+  dependencies:
+    "@types/node" "*"
+
 "@types/jsonfile@*":
   version "6.1.4"
   resolved "https://registry.yarnpkg.com/@types/jsonfile/-/jsonfile-6.1.4.tgz#614afec1a1164e7d670b4a7ad64df3e7beb7b702"
@@ -356,6 +363,11 @@ ignore@^5.2.4:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.3.1.tgz#5073e554cd42c5b33b394375f538b8593e34d4ef"
   integrity sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==
+
+ipp@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ipp/-/ipp-2.0.1.tgz#9d28d71a3d075a4d029d30baea2a7be980741cb6"
+  integrity sha512-p5dO2BXAVDnkv6IhUBupwydkq5/uw+DE+MGXnYzziNK1AtuLgbT9dFfJ3f8pA+J21n43TYipm6et/hTDEFJU/A==
 
 is-extglob@^2.1.1:
   version "2.1.1"
