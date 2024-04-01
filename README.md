@@ -19,7 +19,7 @@ podman run --rm --security-opt label=disable -v /var/run/user/1000/podman/podman
 **UNTESTED**
 #### run dev server
 ```bash
-docker build -t tszx:vanilla-dev --target dev .
+docker build -f Containerfile -t tszx:vanilla-dev --target dev .
 docker run --rm --security-opt label=disable -v /var/run/docker.sock:/var/run/docker.sock -v .:/workspace --name myapp-dev -td tszx:vanilla-dev
 
 ```

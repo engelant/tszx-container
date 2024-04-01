@@ -1,0 +1,4 @@
+POST http://localhost:7323/?foo=asd
+Content-Type: application/pdf
+
+< ./test/assets/Example.pdf
